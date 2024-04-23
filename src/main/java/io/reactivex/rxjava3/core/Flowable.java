@@ -8372,7 +8372,7 @@ public abstract class Flowable<@NonNull T> implements Publisher<T> {
      * other terminates, emits their success value if available and optionally delaying all errors
      * till both this {@code Flowable} and all inner {@code MaybeSource}s terminate.
      * <p>
-     * <img width="640" height="310" src="https://raw.github.com/wiki/ReactiveX/RxJava/images/rx-operators/concatMap.v3.png" alt="">
+     * <img width="640" height="310" src="https://raw.github.com/wiki/ReactiveX/RxJava/images/rx-operators/concatMapMaybeDelayError.v3.png" alt="">
      * <dl>
      *  <dt><b>Backpressure:</b></dt>
      *  <dd>The operator expects the upstream to support backpressure and honors
